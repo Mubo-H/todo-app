@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Todo Application</h1>
+        <nav>
+          <a href="/">Home</a> | <a href="/tasks">Tasks</a> |
+          <a href="/logout">Logout</a>
+        </nav>
+      </header>
+
+      <main>
+        <%- body %>
+        <!-- This is where the content from specific views will be injected -->
+      </main>
+
+      <footer>
+        <p>&copy; 2024 Todo App</p>
+      </footer>
+    </div>
+  </body>
+</html>
